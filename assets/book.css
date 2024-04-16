@@ -1,0 +1,100 @@
+
+#booking {
+    background-color: transparent;
+  }
+  
+  section {
+    display: block;
+  }
+  .tabs {
+    margin-top: 50px;
+  }
+  
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col ul {
+    width: 100%;
+    border-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .col li {
+    float: none;
+    position: relative;
+    display: block;
+    list-style: none;
+    background-color: #1a1a1a;
+    margin-top: 97px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    height: 50px;
+    color: white;
+  }
+  
+  .book{
+      margin-top: 30px;
+      background-color: #464444;
+      width: 80%;
+      margin-left: 115px;
+      font-size: 20px;
+      color: rgb(226, 221, 221);
+  }
+  
+  .book .formm{
+      width: 25%;
+      color: black;
+      font-size: 20px;
+      border-radius: 30%;
+      border-right: 5px solid #080808;
+      border-left: 5px solid #080808;
+  }
+  
+   .label{
+      margin-left: 350px;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .btn{
+      margin-left: 52%;
+      width: 100px;
+      height: 40px;
+      color: #fff;
+      background-color: #1b1b1a;
+      border-radius: 10%;
+      border-right: 5px solid #080808;
+      border-left: 5px solid #080808;
+      font-weight: 500;
+  }
+  
+  .btn:hover{
+      background-color: #4a4b49;
+  }
+
+ .formm select option {
+    background: rgb(244, 241, 242);
+    color: #000;
+    outline: 0;
+}
+
+option {
+  font-weight: normal;
+  /* display: block; */
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
